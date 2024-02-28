@@ -6,6 +6,6 @@
 [MITM]
 hostname=*.caiyunapp.*,*cyapi*
 [Script]
-http-response ^http[s]?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/v2\/user.*$ requires-body=1,script-path=https://raw.githubusercontent.com/WeiRen0/Scripts/main/cytq.js
+http-response ^http[s]?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/v2\/user.*$ requires-body=1,script-path=https://raw.githubusercontent.com/OctoberCK/rules/main/Script/cytq.js
 [URL Rewrite]
 ^https:\/\/ad\.caiyunapp\.com\/ reject
